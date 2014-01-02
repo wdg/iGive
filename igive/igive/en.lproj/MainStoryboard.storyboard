@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="splash.png" id="fOK-7l-eua">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -25,16 +24,16 @@
                         <segue destination="OJe-oN-Y27" kind="modal" identifier="searchSegue" modalTransitionStyle="crossDissolve" id="mzd-v7-bt5"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="247" y="132"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="HpB-Gr-xzy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e0B-uI-Z6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="cgy-xE-QVh" customClass="SearchViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7uD-BW-64Y">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg.png" id="g6O-Bj-dG1">
@@ -109,20 +108,20 @@
                         <segue destination="Wgf-eo-cf5" kind="push" identifier="myDonationsSegue" id="2Te-Rn-YC1"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0B-uI-Z6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1152" y="138"/>
         </scene>
         <!--My Donations View Controller-->
         <scene sceneID="bZu-ru-7iP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RmC-WO-C6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Wgf-eo-cf5" customClass="MyDonationsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5t1-3A-6HU">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="tIk-uv-R6q">
-                                <rect key="frame" x="0.0" y="51" width="320" height="409"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="tIk-uv-R6q">
+                                <rect key="frame" x="0.0" y="51" width="320" height="429"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -130,7 +129,7 @@
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="cellId" rowHeight="60" id="Yrl-Ed-Ke6">
                                         <rect key="frame" x="0.0" y="22" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yrl-Ed-Ke6" id="C1q-T0-LXW">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -160,8 +159,7 @@
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -202,16 +200,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="h2j-p0-IsY"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RmC-WO-C6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1740" y="-166"/>
         </scene>
         <!--Info Charity View Controller-->
         <scene sceneID="crR-WK-5WQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vkO-Ox-VIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rFc-7d-pZZ" customClass="InfoCharityViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LMZ-zo-zfx">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="8fl-t0-vui" customClass="DDPageControl">
@@ -428,13 +426,13 @@
                         <outlet property="titleLabel" destination="UhJ-Zx-aOz" id="qvu-Kq-1UZ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkO-Ox-VIG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1740" y="596"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8gW-iQ-hJm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dz0-CL-qv8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="OJe-oN-Y27" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="2tx-I2-bRK"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lLn-XH-X1q">
@@ -444,6 +442,7 @@
                         <segue destination="cgy-xE-QVh" kind="relationship" relationship="rootViewController" id="gnw-LU-weR"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dz0-CL-qv8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="708" y="138"/>
         </scene>
@@ -466,48 +465,6 @@
         <image name="splash.png" width="640" height="960"/>
         <image name="wwf.png" width="104" height="128"/>
     </resources>
-    <classes>
-        <class className="DDPageControl" superclassName="UIControl">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DDPageControl.h"/>
-        </class>
-        <class className="InfoCharityViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoCharityViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="changeImage:"/>
-                <relationship kind="action" name="donateButtonPressed:"/>
-                <relationship kind="action" name="goBack:"/>
-                <relationship kind="outlet" name="_charityLogo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="_fullImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="affectedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="amountDonatedLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="imagesPage" candidateClass="UIView"/>
-                <relationship kind="outlet" name="informationLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="locationLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="pageControl" candidateClass="DDPageControl"/>
-                <relationship kind="outlet" name="problemLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="solutionLabel" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="MyDonationsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MyDonationsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="goBack:"/>
-            </relationships>
-        </class>
-        <class className="SearchViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="myDonationsButtonPressed:"/>
-                <relationship kind="outlet" name="totalAmoutLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="totalDonatorsLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

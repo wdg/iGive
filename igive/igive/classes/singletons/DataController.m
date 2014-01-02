@@ -342,6 +342,7 @@ static const NSUInteger _currentMinor = 0;
         [CharityCategory new:@"nidirect" uid_category:@"support" is_primary:YES];
         [CharityCategory new:@"directgov" uid_category:@"support" is_primary:YES];
         [CharityCategory new:@"isf" uid_category:@"support" is_primary:YES];
+        [CharityCategory new:@"maxhavelaar" uid_category:@"support" is_primary:YES];
 	}
 
 	- (void) setupDatabase

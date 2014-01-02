@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77338975-681C-4745-B9A9-01E0D6AF8B82</string>
+	<key>IDESourceControlProjectName</key>
+	<string>igive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2CE0C213-402B-49DB-8083-DCF06BF4EB96</key>
+		<string>https://github.com/wesdegroot/iGive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>igive/igive.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2CE0C213-402B-49DB-8083-DCF06BF4EB96</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wesdegroot/iGive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2CE0C213-402B-49DB-8083-DCF06BF4EB96</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2CE0C213-402B-49DB-8083-DCF06BF4EB96</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iGive</string>
+		</dict>
+	</array>
+</dict>
+</plist>
